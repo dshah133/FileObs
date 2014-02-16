@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+ 
+<ListView
+    android:id="@+id/files"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/button1"
+    android:stackFromBottom="false" 
+    android:layout_alignParentTop="true">
+
+</ListView>
+ 
+<TextView
+android:id="@+id/text1"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:visibility="invisible" 
+android:text="@string/No_Rep" 
+android:gravity="center">  
+</TextView>
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:text="@string/home" />
+
+</RelativeLayout>
+
